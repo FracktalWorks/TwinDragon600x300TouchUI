@@ -10,12 +10,10 @@ api:
   allowCrossOrigin: true
   key: B508534ED20348F090B4D0AD637D3660
 appearance:
-  name: Twin Dragon 400
+  name: Twin Dragon 600 x 300
 feature:
   sdSupport: false
 plugins:
-  Julia2018PrintRestore:
-    _config_version: 2
   _disabled:
   - pi_support
   announcements:
@@ -64,7 +62,7 @@ plugins:
   softwareupdate:
     _config_version: 9
     checks:
-      TwinDragon400TouchUI:
+      TwinDragon600x300TouchUI:
         disabled: false
       pi_support:
         disabled: true

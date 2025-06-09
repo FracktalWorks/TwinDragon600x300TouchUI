@@ -98,16 +98,16 @@ filaments = [
 
 filaments = OrderedDict(filaments)
 
-calibrationPosition = {'X1': 110, 'Y1': 67, #110, 18
-                       'X2': 410, 'Y2': 67, #510, 18
-                       'X3': 260, 'Y3': 380, #310, 308
-                       'X4': 260, 'Y4': 20
+calibrationPosition = {'X1': 110, 'Y1': 18,
+                       'X2': 510, 'Y2': 18,
+                       'X3': 310, 'Y3': 308,
+                       'X4': 310, 'Y4': 178
                        }
 
-tool0PurgePosition = {'X': 15, 'Y': -43}
-tool1PurgePosition = {'X': 500, 'Y': -43}
+tool0PurgePosition = {'X': -27, 'Y': -112}
+tool1PurgePosition = {'X': 648, 'Y': -112}
 
-ptfeTubeLength = 2000 #for TD400 and D500
+ptfeTubeLength = 1500 #for TD400 and D500
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
