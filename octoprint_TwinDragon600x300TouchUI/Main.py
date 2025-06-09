@@ -104,8 +104,8 @@ calibrationPosition = {'X1': 110, 'Y1': 18,
                        'X4': 310, 'Y4': 178
                        }
 
-tool0PurgePosition = {'X': -27, 'Y': -112}
-tool1PurgePosition = {'X': 648, 'Y': -112}
+tool0PurgePosition = {'X': -30, 'Y': -77}
+tool1PurgePosition = {'X': 655, 'Y': -77}
 
 ptfeTubeLength = 1500 #for TD400 and D500
 
